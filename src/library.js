@@ -1,0 +1,40 @@
+var order_history = {
+    "orderID": "string",
+    "clOrdID": "string",
+    "clOrdLinkID": "string",
+    "account": 0,
+    "symbol": "string",
+    "side": "string",
+    "simpleOrderQty": 0,
+    "orderQty": 0,
+    "price": 0,
+    "displayQty": 0,
+    "stopPx": 0,
+    "pegOffsetValue": 0,
+    "pegPriceType": "string",
+    "currency": "string",
+    "settlCurrency": "string",
+    "ordType": "string",
+    "timeInForce": "string",
+    "execInst": "string",
+    "contingencyType": "string",
+    "exDestination": "string",
+    "ordStatus": "string",
+    "triggered": "string",
+    "workingIndicator": true,
+    "ordRejReason": "string",
+    "simpleLeavesQty": 0,
+    "leavesQty": 0,
+    "simpleCumQty": 0,
+    "cumQty": 0,
+    "avgPx": 0,
+    "multiLegReportingType": "string",
+    "text": "string",
+    "transactTime": "2019-01-24T21:21:30.223Z",
+    "timestamp": "2019-01-24T21:21:30.223Z"
+};
+
+module.exports = {
+    ORDER_HISTORY: order_history, 
+}
+
